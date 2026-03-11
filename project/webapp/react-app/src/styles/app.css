@@ -1,0 +1,14 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, Arial, sans-serif;
+  background: #0a0f1f;
+  color: #e5ecff;
+}
+body { margin: 0; background: radial-gradient(circle at top, #132343, #0a0f1f 60%); }
+.layout { padding: 16px; max-width: 480px; margin: 0 auto; }
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+.card { background: #151d34; border: 1px solid #2c3e73; border-radius: 14px; padding: 12px; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.asset { background: #0d1730; border-radius: 10px; padding: 8px; font-size: 13px; }
+.actions { margin-top: 14px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+button { border: none; border-radius: 12px; background: linear-gradient(130deg, #3056ff, #00b3ff); color: white; padding: 10px; font-weight: 600; }
